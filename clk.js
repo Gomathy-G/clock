@@ -23,7 +23,7 @@ function Time(){
     }
     var time=hour + ":" + min + ":" +sec + "-" +period;
     document.getElementById("display"). innerHTML = time;
-    document.getElementById("box"). innerHTML = date;
+    // document.getElementById("box"). innerHTML = date;
     setTimeout(Time,1000)
 }
 Time();
