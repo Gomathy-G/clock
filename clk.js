@@ -3,7 +3,6 @@ function Time(){
     var hour=date.getHours();
     var min=date.getMinutes();
     var sec=date.getSeconds();
-    // document.write(date);
     var period="AM";
     if(hour==0){
         hour=12;
@@ -23,7 +22,6 @@ function Time(){
     }
     var time=hour + ":" + min + ":" +sec + "-" +period;
     document.getElementById("display"). innerHTML = time;
-    // document.getElementById("box"). innerHTML = date;
     setTimeout(Time,1000)
 }
 Time();
