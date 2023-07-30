@@ -15,7 +15,6 @@
     color:black;
     text-shadow: 3px 3px 2px gray, -3px 3px 3px white;
   }
-  
   .container:active {
     /* lg namixing of to color here only the background color will show while clicking */
     background: linear-gradient(90deg, #7fb8e9, #ee8be3);
